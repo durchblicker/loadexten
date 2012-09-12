@@ -30,7 +30,7 @@ Assume a folder structure such as:
 
 The code in *application.js* would be:
 
-    var load=require('load-exten');
+    var load=require('loadexten');
 
     load(__dirname+'/modules', '.mod'[, arguments]);
 
@@ -39,7 +39,7 @@ Load-Exten will require everything in the *folder* with the *extension*. The *mo
 Example for Express:
 
     var express=require('express');
-    var load=require('load-exten');
+    var load=require('loadexten');
     var app=express();
     app.get('/', functio(req, res, next) { … }); // Setup stuff directly
 
