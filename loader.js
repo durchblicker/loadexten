@@ -1,6 +1,5 @@
 /*
-** © 2012 by YOUSURE Tarifvergleich Gmbh
-** Licensed under MIT License
+** © 2012 by YOUSURE Tarifvergleich Gmbh. Licensed under MIT License
 */
 
 module.exports = load;
