@@ -1,0 +1,12 @@
+{
+  "name":"loadextend",
+  "version":"0.1.0",
+  "description":"A flexible extension loader",
+  "author":{ "name":"Philipp Dunkel", "email":"phidelta@phideltacity.net" },
+  "main":"loader.js",
+  "dependencies":{},
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/phidelta/loadexten.git"
+  }
+}
