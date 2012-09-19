@@ -11,7 +11,7 @@ function load(directory, extension) {
   var args = Array.prototype.slice.call(arguments, 2);
   fs.readdirSync(directory).filter(function select(entry) {
     return path.extname(entry) === extension;
-  }).forEach(function(entry) {
+  }).sort().forEach(function(entry) {
     return require(path.join(directory, entry)).apply(null, args);
   });
 }
