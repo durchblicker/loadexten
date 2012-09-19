@@ -1,6 +1,6 @@
 {
   "name":"loadexten",
-  "version":"0.1.1",
+  "version":"0.1.2",
   "description":"A flexible extension loader",
   "author":{ "name":"Philipp Dunkel", "email":"phidelta@phideltacity.net" },
   "main":"loader.js",
